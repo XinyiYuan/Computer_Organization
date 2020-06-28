@@ -1,0 +1,62 @@
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ucas/prj0-XinyiYuan/hardware/scripts/mk.tcl -notrace
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj counter_test_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj0-XinyiYuan/hardware/sources/ip_catalog/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj0-XinyiYuan/hardware/sources/testbench/counter_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto be0c1e26b09b4a15be8e475b07778573 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_test_behav xil_defaultlib.counter_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.counter_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_test_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim/xsim.dir/counter_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim/xsim.dir/counter_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Mar  1 22:20:57 2020. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx_2018.3/Vivado/2018.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:07 . Memory (MB): peak = 395.367 ; gain = 0.000 ; free physical = 4615 ; free virtual = 7747
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar  1 22:20:57 2020...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1313.191 ; gain = 0.000 ; free physical = 4655 ; free virtual = 7787
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ucas/prj0-XinyiYuan/hardware/vivado_prj/prj_0/prj_0.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter_test_behav -key {Behavioral:sim_1:Functional:counter_test} -tclbatch {/home/ucas/prj0-XinyiYuan/hardware/scripts/sim/xsim_run.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source /home/ucas/prj0-XinyiYuan/hardware/scripts/sim/xsim_run.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2us
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1378.043 ; gain = 64.852 ; free physical = 4645 ; free virtual = 7785
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  1 22:21:07 2020...

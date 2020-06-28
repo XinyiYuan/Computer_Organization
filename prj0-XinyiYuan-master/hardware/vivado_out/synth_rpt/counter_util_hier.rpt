@@ -1,0 +1,27 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Sun Mar  1 22:42:47 2020
+| Host         : SERVE-COD running 64-bit Ubuntu 18.04 LTS
+| Command      : report_utilization -hierarchical -file /home/ucas/prj0-XinyiYuan/hardware/scripts/../vivado_out/synth_rpt/counter_util_hier.rpt
+| Design       : counter
+| Device       : xczu2egsfva625-1
+| Design State : Synthesized
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------+--------+------------+------------+---------+------+-----+--------+--------+------+--------------+
+| Instance | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | URAM | DSP48 Blocks |
++----------+--------+------------+------------+---------+------+-----+--------+--------+------+--------------+
+| counter  |  (top) |         95 |         95 |       0 |    0 |  64 |      0 |      0 |    0 |            0 |
++----------+--------+------------+------------+---------+------+-----+--------+--------+------+--------------+
+
+

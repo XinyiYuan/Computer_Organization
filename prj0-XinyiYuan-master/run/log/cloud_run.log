@@ -1,0 +1,29 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Completed FPGA configuration
+/home/ucas/prj0-XinyiYuan/run
+Please input command:
+add 2 5
+Please input command:
+add 18 20
+Please input command:
+state reset
+Please input command:
+interval 2
+Please input command:
+state run
+Please input command:
+count
+count: 221450422
+Please input command:
+state halt
+Please input command:
+count
+count: 802547990
+Please input command:
+count
+count: 802547990
+Please input command:
+Stopping xl2tpd (via systemctl): xl2tpd.service.
