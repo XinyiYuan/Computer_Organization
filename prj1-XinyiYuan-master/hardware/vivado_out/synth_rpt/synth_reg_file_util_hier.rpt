@@ -1,0 +1,27 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Sat Mar 28 11:16:10 2020
+| Host         : SERVE-COD running 64-bit Ubuntu 18.04 LTS
+| Command      : report_utilization -hierarchical -file /home/ucas/prj1-XinyiYuan/hardware/scripts/../vivado_out/synth_rpt/synth_reg_file_util_hier.rpt
+| Design       : reg_file
+| Device       : xczu2egsfva625-1
+| Design State : Synthesized
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------+--------+------------+------------+---------+------+------+--------+--------+------+--------------+
+| Instance | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | URAM | DSP48 Blocks |
++----------+--------+------------+------------+---------+------+------+--------+--------+------+--------------+
+| reg_file |  (top) |        610 |        610 |       0 |    0 | 1024 |      0 |      0 |    0 |            0 |
++----------+--------+------------+------------+---------+------+------+--------+--------+------+--------------+
+
+

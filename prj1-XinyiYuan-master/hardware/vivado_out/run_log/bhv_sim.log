@@ -1,0 +1,59 @@
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ucas/prj1-XinyiYuan/hardware/scripts/mk.tcl -notrace
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ucas/prj1-XinyiYuan/hardware/vivado_prj/prj_1/prj_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'alu_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ucas/prj1-XinyiYuan/hardware/vivado_prj/prj_1/prj_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj alu_test_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj1-XinyiYuan/hardware/sources/ip_catalog/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj1-XinyiYuan/hardware/sources/testbench/alu_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj1-XinyiYuan/hardware/vivado_prj/prj_1/prj_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ucas/prj1-XinyiYuan/hardware/vivado_prj/prj_1/prj_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto f7017e8af61e4772abc174a0490e6591 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_test_behav xil_defaultlib.alu_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.alu_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot alu_test_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ucas/prj1-XinyiYuan/hardware/vivado_prj/prj_1/prj_1.sim/sim_1/behav/xsim/xsim.dir/alu_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 27 22:57:40 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ucas/prj1-XinyiYuan/hardware/vivado_prj/prj_1/prj_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "alu_test_behav -key {Behavioral:sim_1:Functional:alu_test} -tclbatch {/home/ucas/prj1-XinyiYuan/hardware/scripts/sim/xsim_run.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source /home/ucas/prj1-XinyiYuan/hardware/scripts/sim/xsim_run.tcl
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'alu_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2us
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1454.848 ; gain = 64.852 ; free physical = 4364 ; free virtual = 7891
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 22:57:44 2020...
