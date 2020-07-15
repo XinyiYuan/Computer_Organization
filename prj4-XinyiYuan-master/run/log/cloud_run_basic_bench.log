@@ -1,0 +1,26 @@
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.53
+Try to reboot 172.16.15.53
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating basic benchmark suite...
+Launching memcpy benchmark...
+Hit good trap
+pass 1 / 1
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 06月 02日 星期二 17:14:52 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.54
+Try to reboot 172.16.15.54
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating basic benchmark suite...
+Launching memcpy benchmark...
+Hit bad trap
+pass 0 / 1
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 06月 02日 星期二 11:56:27 CST
+------------------------------
