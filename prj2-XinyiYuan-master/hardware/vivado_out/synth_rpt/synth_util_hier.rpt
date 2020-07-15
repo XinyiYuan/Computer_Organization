@@ -1,0 +1,33 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Fri Apr 24 15:47:06 2020
+| Host         : SERVE-COD running 64-bit Ubuntu 18.04 LTS
+| Command      : report_utilization -hierarchical -file /home/ucas/prj2-XinyiYuan/hardware/scripts/../vivado_out/synth_rpt/synth_util_hier.rpt
+| Design       : mips_cpu_top
+| Device       : xczu2egsfva625-1
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------+-------------+------------+------------+---------+------+------+--------+--------+------+--------------+
+|      Instance      |    Module   | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | URAM | DSP48 Blocks |
++--------------------+-------------+------------+------------+---------+------+------+--------+--------+------+--------------+
+| mips_cpu_top       |       (top) |       4270 |       2222 |    2048 |    0 | 1089 |      0 |      0 |    0 |            0 |
+|   (mips_cpu_top)   |       (top) |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|   u_axi_lite_slave | axi_lite_if |        152 |        152 |       0 |    0 |   45 |      0 |      0 |    0 |            0 |
+|   u_ideal_mem      |   ideal_mem |       3230 |       1182 |    2048 |    0 |    0 |      0 |      0 |    0 |            0 |
+|   u_mips_cpu       |    mips_cpu |        888 |        888 |       0 |    0 | 1044 |      0 |      0 |    0 |            0 |
+|     (u_mips_cpu)   |    mips_cpu |         16 |         16 |       0 |    0 |   32 |      0 |      0 |    0 |            0 |
+|     reg_file1      |    reg_file |        872 |        872 |       0 |    0 | 1012 |      0 |      0 |    0 |            0 |
++--------------------+-------------+------------+------------+---------+------+------+--------+--------+------+--------------+
+
+

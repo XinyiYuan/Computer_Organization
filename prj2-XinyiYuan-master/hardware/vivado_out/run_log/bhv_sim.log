@@ -1,0 +1,77 @@
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ucas/prj2-XinyiYuan/hardware/scripts/mk.tcl -notrace
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_cpu_test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim/inst.mem'
+INFO: [SIM-utils-43] Exported '/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim/inst.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj mips_cpu_test_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/sources/ip_catalog/mips_core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/sources/hdl/ideal_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ideal_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/sources/ip_catalog/mips_core/mips_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/sources/ip_catalog/mips_core/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/sources/hdl/mips_cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/sources/testbench/mips_cpu_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_cpu_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx_2018.3/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 5b1e153bba4442418ad6558f70df9270 --incr --debug typical --relax --mt 8 -d MIPS_CPU_FULL_SIMU= -d USE_MEM_INIT= -d TRACE_CMP= -d TRACE_FILE=/home/ucas/prj2-XinyiYuan/hardware/scripts/../../benchmark/advanced/sim/bit.mem.log -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mips_cpu_test_behav xil_defaultlib.mips_cpu_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.mips_cpu
+Compiling module xil_defaultlib.ideal_mem(ADDR_WIDTH=12)
+Compiling module xil_defaultlib.mips_cpu_top
+Compiling module xil_defaultlib.mips_cpu_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mips_cpu_test_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim/xsim.dir/mips_cpu_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun May 10 21:16:27 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ucas/prj2-XinyiYuan/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_cpu_test_behav -key {Behavioral:sim_1:Functional:mips_cpu_test} -tclbatch {/home/ucas/prj2-XinyiYuan/hardware/scripts/sim/xsim_run.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source /home/ucas/prj2-XinyiYuan/hardware/scripts/sim/xsim_run.tcl
+=================================================
+INFO: comparing trace finish, PASS!
+=================================================
+$finish called at time : 6390 ns : File "/home/ucas/prj2-XinyiYuan/hardware/sources/testbench/mips_cpu_test.v" Line 83
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_cpu_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 8us
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1454.848 ; gain = 48.840 ; free physical = 712 ; free virtual = 5147
+INFO: [Common 17-206] Exiting Vivado at Sun May 10 21:16:31 2020...
