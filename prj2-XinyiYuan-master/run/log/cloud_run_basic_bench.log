@@ -1,0 +1,84 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.53
+Completed FPGA configuration
+Evaluating basic benchmark suite...
+Launching memcpy benchmark...
+Hit good trap
+pass 1 / 1
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 04月 28日 星期二 22:24:17 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:41:46 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:38:31 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:34:45 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:30:46 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:25:43 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:21:16 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.53
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:18:33 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.53
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 15:13:47 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Completed FPGA configuration
+Evaluating basic benchmark suite...
+Launching memcpy benchmark...
+Hit good trap
+pass 1 / 1
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 04月 24日 星期五 13:53:04 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.53
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 13:32:06 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.53
+Failed to configure remote FPGA node
+2020年 04月 24日 星期五 13:29:33 CST
+------------------------------
