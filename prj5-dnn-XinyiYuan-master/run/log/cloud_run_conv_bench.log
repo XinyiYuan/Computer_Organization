@@ -1,0 +1,16 @@
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.58
+Try to reboot 172.16.15.58
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating convolution benchmark suite...
+Launching hw_conv benchmark...
+Initializing read image data
+Initializing weights
+Start convolution
+Cycles of sw: 409165
+Memory visit times: 1020
+Hit good trap
+pass 1 / 1
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 06月 28日 星期日 18:08:31 CST
