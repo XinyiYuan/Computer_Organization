@@ -1,0 +1,237 @@
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.58
+Try to reboot 172.16.15.58
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating microbench benchmark suite...
+Launching 15pz benchmark...
+[15pz] A* 15-puzzle search: * Passed.
+Work cycles: 231238358
+benchmark finished
+time 2326.31ms
+Hit good trap
+Launching bf benchmark...
+[bf] Brainf**k interpreter: * Passed.
+Work cycles: 18827426
+benchmark finished
+time 321.77ms
+Hit good trap
+Launching dinic benchmark...
+[dinic] Dinic's maxflow algorithm: * Passed.
+Work cycles: 720883
+benchmark finished
+time 2910.42ms
+Hit good trap
+Launching fib benchmark...
+[fib] Fibonacci number: * Passed.
+Work cycles: 72570243
+benchmark finished
+time 735.41ms
+Hit good trap
+Launching md5 benchmark...
+[md5] MD5 digest: * Passed.
+Work cycles: 165770
+benchmark finished
+time 102.01ms
+Hit good trap
+Launching qsort benchmark...
+[qsort] Quick sort: * Passed.
+Work cycles: 299956
+benchmark finished
+time 490.94ms
+Hit good trap
+Launching queen benchmark...
+[queen] Queen placement: * Passed.
+Work cycles: 2950205
+benchmark finished
+time 35.31ms
+Hit good trap
+Launching sieve benchmark...
+[sieve] Eratosthenes sieve: * Passed.
+Work cycles: 489161
+benchmark finished
+time 11.46ms
+Hit good trap
+Launching ssort benchmark...
+[ssort] Suffix sort: * Passed.
+Work cycles: 21345082
+benchmark finished
+time 672.17ms
+Hit good trap
+pass 9 / 9
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 06月 25日 星期四 00:44:31 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Try to reboot 172.16.15.67
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating microbench benchmark suite...
+Launching 15pz benchmark...
+[15pz] A* 15-puzzle search: * Passed.
+Work cycles: 231124137
+benchmark finished
+time 2317.20ms
+Hit good trap
+Launching bf benchmark...
+[bf] Brainf**k interpreter: * Passed.
+Work cycles: 18833659
+benchmark finished
+time 321.16ms
+Hit good trap
+Launching dinic benchmark...
+[dinic] Dinic's maxflow algorithm: * Passed.
+Work cycles: 720980
+benchmark finished
+time 2906.63ms
+Hit good trap
+Launching fib benchmark...
+[fib] Fibonacci number: * Passed.
+Work cycles: 72566579
+benchmark finished
+time 732.66ms
+Hit good trap
+Launching md5 benchmark...
+[md5] MD5 digest: * Passed.
+Work cycles: 165719
+benchmark finished
+time 101.86ms
+Hit good trap
+Launching qsort benchmark...
+[qsort] Quick sort: * Passed.
+Work cycles: 299592
+benchmark finished
+time 489.95ms
+Hit good trap
+Launching queen benchmark...
+[queen] Queen placement: * Passed.
+Work cycles: 2946986
+benchmark finished
+time 35.27ms
+Hit good trap
+Launching sieve benchmark...
+[sieve] Eratosthenes sieve: * Passed.
+Work cycles: 488850
+benchmark finished
+time 11.47ms
+Hit good trap
+Launching ssort benchmark...
+[ssort] Suffix sort: * Passed.
+Work cycles: 21347097
+benchmark finished
+time 671.42ms
+Hit good trap
+pass 9 / 9
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 28日 星期四 19:21:00 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.70
+Try to reboot 172.16.15.70
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating microbench benchmark suite...
+Launching 15pz benchmark...
+[15pz] A* 15-puzzle search: time 60455.91ms
+Hit bad trap
+Launching bf benchmark...
+[bf] Brainf**k interpreter: Assertion fail at src/bench.c:138
+time 60651.69ms
+Hit bad trap
+Launching dinic benchmark...
+[dinic] Dinic's maxflow algorithm: Assertion fail at src/bench.c:138
+time 60697.67ms
+Hit bad trap
+Launching fib benchmark...
+[fib] Fibonacci number: Assertion fail at src/bench.c:138
+time 60783.81ms
+Hit bad trap
+Launching md5 benchmark...
+[md5] MD5 digest: Assertion fail at src/bench.c:138
+time 60783.46ms
+Hit bad trap
+Launching qsort benchmark...
+[qsort] Quick sort: Assertion fail at src/bench.c:138
+time 60698.55ms
+Hit bad trap
+Launching queen benchmark...
+[queen] Queen placement: time 60715.72ms
+Hit bad trap
+Launching sieve benchmark...
+[sieve] Eratosthenes sieve: Assertion fail at src/bench.c:138
+time 60650.83ms
+Hit bad trap
+Launching ssort benchmark...
+[ssort] Suffix sort: Assertion fail at src/bench.c:138
+time 60720.96ms
+Hit bad trap
+pass 0 / 9
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 28日 星期四 10:07:51 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 27日 星期三 20:33:30 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.66
+Try to reboot 172.16.15.66
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating microbench benchmark suite...
+Launching 15pz benchmark...
+[15pz] A* 15-puzzle search: time 60816.57ms
+Hit bad trap
+Launching bf benchmark...
+[bf] Brainf**k interpreter: time 60653.74ms
+Hit bad trap
+Launching dinic benchmark...
+[dinic] Dinic's maxflow algorithm: Assertion fail at src/bench.c:138
+time 60623.82ms
+Hit bad trap
+Launching fib benchmark...
+[fib] Fibonacci number: Assertion fail at src/bench.c:138
+time 60710.69ms
+Hit bad trap
+Launching md5 benchmark...
+[md5] MD5 digest: Assertion fail at src/bench.c:138
+time 60643.44ms
+Hit bad trap
+Launching qsort benchmark...
+[qsort] Quick sort: Assertion fail at src/bench.c:138
+time 60701.43ms
+Hit bad trap
+Launching queen benchmark...
+[queen] Queen placement: time 60655.69ms
+Hit bad trap
+Launching sieve benchmark...
+[sieve] Eratosthenes sieve: Assertion fail at src/bench.c:138
+time 60691.30ms
+Hit bad trap
+Launching ssort benchmark...
+[ssort] Suffix sort: time 60637.92ms
+Hit bad trap
+pass 0 / 9
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 27日 星期三 19:34:19 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 27日 星期三 18:47:19 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 27日 星期三 18:42:18 CST
+------------------------------

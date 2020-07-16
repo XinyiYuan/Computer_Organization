@@ -1,0 +1,408 @@
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.58
+Try to reboot 172.16.15.58
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit good trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit good trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit good trap
+Launching pascal benchmark...
+time 0.00ms
+Hit good trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching max benchmark...
+time 0.00ms
+Hit good trap
+Launching min3 benchmark...
+time 0.00ms
+Hit good trap
+Launching switch benchmark...
+time 0.00ms
+Hit good trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit good trap
+pass 12 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 06月 24日 星期三 23:10:46 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.68
+Try to reboot 172.16.15.68
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit good trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit good trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit good trap
+Launching pascal benchmark...
+time 0.00ms
+Hit good trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching max benchmark...
+time 0.00ms
+Hit good trap
+Launching min3 benchmark...
+time 0.00ms
+Hit good trap
+Launching switch benchmark...
+time 0.00ms
+Hit good trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit good trap
+pass 12 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 27日 星期三 16:52:22 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 26日 星期二 22:18:03 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 26日 星期二 22:13:51 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.68
+Try to reboot 172.16.15.68
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit good trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit good trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit bad trap
+Launching pascal benchmark...
+time 0.00ms
+Hit good trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit bad trap
+Launching max benchmark...
+time 0.00ms
+Hit bad trap
+Launching min3 benchmark...
+time 0.00ms
+Hit bad trap
+Launching switch benchmark...
+time 0.00ms
+Hit good trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit good trap
+pass 8 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 26日 星期二 17:32:15 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 26日 星期二 17:02:12 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 26日 星期二 16:23:21 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.67
+Required FPGA node is currently unavailable
+2020年 05月 26日 星期二 16:02:42 CST
+------------------------------
+Error: ucas is not allowed to connect FPGA cloud
+Please contact your system administrator for help
+2020年 05月 26日 星期二 15:59:09 CST
+------------------------------
+Error: ucas is not allowed to connect FPGA cloud
+Please contact your system administrator for help
+2020年 05月 26日 星期二 15:58:51 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.66
+Try to reboot 172.16.15.66
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit good trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit good trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit bad trap
+Launching pascal benchmark...
+time 0.00ms
+Hit good trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit bad trap
+Launching max benchmark...
+time 0.00ms
+Hit bad trap
+Launching min3 benchmark...
+time 0.00ms
+Hit bad trap
+Launching switch benchmark...
+time 0.00ms
+Hit good trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit good trap
+pass 8 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 26日 星期二 14:59:06 CST
+------------------------------
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.66
+Try to reboot 172.16.15.66
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit bad trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit bad trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit bad trap
+Launching pascal benchmark...
+time 0.00ms
+Hit bad trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit bad trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit bad trap
+Launching max benchmark...
+time 0.00ms
+Hit bad trap
+Launching min3 benchmark...
+time 0.00ms
+Hit bad trap
+Launching switch benchmark...
+time 0.00ms
+Hit bad trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit bad trap
+pass 2 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 26日 星期二 12:42:47 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.58
+Try to reboot 172.16.15.58
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit good trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit good trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit good trap
+Launching pascal benchmark...
+time 0.00ms
+Hit good trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching max benchmark...
+time 0.00ms
+Hit good trap
+Launching min3 benchmark...
+time 0.00ms
+Hit good trap
+Launching switch benchmark...
+time 0.00ms
+Hit good trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit good trap
+pass 12 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 15日 星期五 17:39:24 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.58
+Try to reboot 172.16.15.58
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit good trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit good trap
+Launching fib benchmark...
+time 0.00ms
+Hit good trap
+Launching add benchmark...
+time 0.00ms
+Hit good trap
+Launching if-else benchmark...
+time 0.00ms
+Hit good trap
+Launching pascal benchmark...
+time 0.00ms
+Hit good trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit good trap
+Launching max benchmark...
+time 0.00ms
+Hit good trap
+Launching min3 benchmark...
+time 0.00ms
+Hit good trap
+Launching switch benchmark...
+time 0.00ms
+Hit good trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit good trap
+pass 12 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 14日 星期四 22:06:23 CST
+------------------------------
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.61
+Try to reboot 172.16.15.61
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating medium benchmark suite...
+Launching sum benchmark...
+time 0.00ms
+Hit bad trap
+Launching mov-c benchmark...
+time 0.00ms
+Hit bad trap
+Launching fib benchmark...
+time 0.00ms
+Hit bad trap
+Launching add benchmark...
+time 0.00ms
+Hit bad trap
+Launching if-else benchmark...
+time 0.00ms
+Hit bad trap
+Launching pascal benchmark...
+time 0.00ms
+Hit bad trap
+Launching quick-sort benchmark...
+time 0.00ms
+Hit bad trap
+Launching select-sort benchmark...
+time 0.00ms
+Hit bad trap
+Launching max benchmark...
+time 0.00ms
+Hit bad trap
+Launching min3 benchmark...
+time 0.00ms
+Hit bad trap
+Launching switch benchmark...
+time 0.00ms
+Hit bad trap
+Launching bubble-sort benchmark...
+time 0.00ms
+Hit bad trap
+pass 0 / 12
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2020年 05月 14日 星期四 14:54:00 CST
+------------------------------
